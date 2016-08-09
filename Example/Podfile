@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'VCNetEntities_Example' do
+  pod 'VCNetEntities', :path => '../'
+
+  target 'VCNetEntities_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
