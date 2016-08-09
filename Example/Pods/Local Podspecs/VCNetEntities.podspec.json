@@ -1,0 +1,22 @@
+{
+  "name": "VCNetEntities",
+  "version": "0.1.0",
+  "summary": "A short description of VCNetEntities.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/VCNetEntities",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gftang": "gftang@vcainfo.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/VCNetEntities.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VCNetEntities/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module VCNetEntities {
+  umbrella header "VCNetEntities-umbrella.h"
+
+  export *
+  module * { export * }
+}
