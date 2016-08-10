@@ -6,10 +6,10 @@
 //  Copyright (c) 2014年 Tang guifu. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonDigest.h>
+//#import <CommonCrypto/CommonDigest.h>
 
 @interface NSString (MD5)
 
--(NSString *)md5Encrypt;
+//-(NSString *)md5Encrypt;
 
 @end

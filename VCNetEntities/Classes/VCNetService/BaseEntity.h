@@ -6,8 +6,8 @@
 //  Copyright © 2016年 VcaiTech. All rights reserved.
 //
 
-#import <Mantle/Mantle.h>
+//#import <Mantle/Mantle.h>
 
-@interface BaseEntity : MTLModel<MTLJSONSerializing>
--(NSDictionary *)toJsonDic;
+@interface BaseEntity : NSObject//MTLModel<MTLJSONSerializing>
+//-(NSDictionary *)toJsonDic;
 @end

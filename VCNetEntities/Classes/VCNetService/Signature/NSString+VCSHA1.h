@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CommonCrypto/CommonDigest.h>
+//#import <CommonCrypto/CommonDigest.h>
 
 @interface NSString (VCSHA1)
--(NSString *)VCSHA1;
+//-(NSString *)VCSHA1;
 @end

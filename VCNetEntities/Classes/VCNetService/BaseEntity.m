@@ -10,18 +10,18 @@
 
 @implementation BaseEntity
 
-+ (NSDictionary *)JSONKeyPathsByPropertyKey{
-    return @{};
-}
-
-- (instancetype)initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError **)error {
-    self = [super initWithDictionary:dictionaryValue error:error];
-    if (self == nil) return nil;
-    
-    return self;
-}
-
--(NSDictionary *)toJsonDic{
-    return [MTLJSONAdapter JSONDictionaryFromModel:self error:nil];
-}
+//+ (NSDictionary *)JSONKeyPathsByPropertyKey{
+//    return @{};
+//}
+//
+//- (instancetype)initWithDictionary:(NSDictionary *)dictionaryValue error:(NSError **)error {
+//    self = [super initWithDictionary:dictionaryValue error:error];
+//    if (self == nil) return nil;
+//    
+//    return self;
+//}
+//
+//-(NSDictionary *)toJsonDic{
+//    return [MTLJSONAdapter JSONDictionaryFromModel:self error:nil];
+//}
 @end
