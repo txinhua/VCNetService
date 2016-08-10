@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (VCBase64)
--(NSString *)vcBase64Encode;
--(NSString *)vcBase64Decode;
+//-(NSString *)vcBase64Encode;
+//-(NSString *)vcBase64Decode;
 @end
