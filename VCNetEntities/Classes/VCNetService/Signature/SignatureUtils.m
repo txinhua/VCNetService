@@ -89,7 +89,7 @@ static NSString *vcnAccessToken = nil;
             [formateStr appendString:body];
             assert(vcnAppSecrect);
             [formateStr appendString:vcnAppSecrect];
-            NSString *sha1Str = [formateStr VCSHA1];
+            NSString *sha1Str = @"";//[formateStr VCSHA1];
             IsStrEmpty(sha1Str)?nil:
             [rvP setObject:sha1Str forKey:@"token"];
         }
@@ -121,7 +121,7 @@ static NSString *vcnAccessToken = nil;
         if (formateStr) {
             assert(vcnAppSecrect);
             [formateStr appendString:vcnAppSecrect];
-            NSString *sha1Str = [formateStr VCSHA1];
+            NSString *sha1Str = @"";//[formateStr VCSHA1];
             IsStrEmpty(sha1Str)?nil:
             [rvP setObject:sha1Str forKey:@"token"];
         }
