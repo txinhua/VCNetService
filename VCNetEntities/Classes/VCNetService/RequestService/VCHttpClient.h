@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import <AFNetworking/AFHTTPSessionManager.h>
 
 typedef enum {
     NetWorkType_None = 0,
@@ -15,9 +14,8 @@ typedef enum {
     NetWorkType_WWAN
 } NetWorkType;
 
-@interface VCHttpClient :NSObject //AFHTTPSessionManager
+@interface VCHttpClient :NSObject
 + (instancetype)sharedClient;
-//+ (BOOL)netWorkIsOk;
-//+(void)getNetWorkTypeAndWorkStatuseWithBlock:(void (^)(BOOL workStatus,  NetWorkType netWorkType))block;
+
 
 @end
