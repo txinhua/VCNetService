@@ -142,8 +142,8 @@ static NSString *vcnAccessToken = nil;
     @try {
         assert(vcnAppKey);
         assert(reqToken);
-        NSString *auth = [NSString stringWithFormat:@"%@:%@",vcnAppKey,reqToken];
-        return [auth vcBase64Encode];
+//        NSString *auth = [NSString stringWithFormat:@"%@:%@",vcnAppKey,reqToken];
+        return @"";//[auth vcBase64Encode];
     } @catch (NSException *exception) {
         NSLog(@"%@",exception);
         return nil;
