@@ -121,7 +121,7 @@ static NSString *vcnAccessToken = nil;
         if (formateStr) {
             assert(vcnAppSecrect);
             [formateStr appendString:vcnAppSecrect];
-            NSString *sha1Str = @"";//[formateStr VCSHA1];
+            NSString *sha1Str = @"";
             IsStrEmpty(sha1Str)?nil:
             [rvP setObject:sha1Str forKey:@"token"];
         }
@@ -142,8 +142,7 @@ static NSString *vcnAccessToken = nil;
     @try {
         assert(vcnAppKey);
         assert(reqToken);
-//        NSString *auth = [NSString stringWithFormat:@"%@:%@",vcnAppKey,reqToken];
-        return @"";//[auth vcBase64Encode];
+        return @"";
     } @catch (NSException *exception) {
         NSLog(@"%@",exception);
         return nil;
